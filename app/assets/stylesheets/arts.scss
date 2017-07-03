@@ -1,0 +1,50 @@
+// Place all the styles related to the arts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.art-header {
+	width: auto;
+	height: 800;
+	background-image: url(geo/one.jpg);
+	background-position: center;
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.art-container {
+	padding-right: 50px;
+	padding-left:50px;
+	padding-top: 100px;
+	margin-bottom: 50px;
+}
+
+.art-box{
+	padding-top: 10px;
+
+}
+
+.title {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+
+.author {
+	text-align: center;
+	padding-top: 10px;
+	font-size: 15px;
+	font-weight: 300;
+	font-family: 'Oswald', sans-serif;
+}
+
+.title-header{
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+
+}

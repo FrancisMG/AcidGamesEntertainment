@@ -1,0 +1,229 @@
+
+<body >
+	<div id="particles-js"> 
+	</div>
+
+	<div class="fixed-background">
+		<%= render partial: "shared/head"%>
+	</div>
+
+
+	<section class="container-fluid">   
+		<div class="row header" align="center">     
+			<div class="col-sm-12">
+				<div class="header-image" align="center"> <%= image_tag("agelogo.png", class: "img-responsive") %> 
+					<h1> Fueled with Creativity. Driven by Passion</h1>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="row header-btn" align="center">     
+			<div class="col-sm-6">
+				<button type="button" class="play-web-games ">Play Web Games</button>
+
+			</div>
+			<div class="col-sm-6">
+				<button type="button" class="browse-games ">Browse Games</button>
+			</div> 
+		</div>
+	</section>
+
+	<section class="about-us" style="margin-bottom: 100px;">
+		<div class="container div-about-us" >
+			<div class="row div-service" >
+				<div class="col-sm-6 ">  
+					<div class="game">
+						<div class="about-age" >
+							<h1> ABOUT AGE </h1> 
+							<div class="about-age-desc"> 
+								<h2> Acid Games Entertainment is an indie game developer group base in the Philippines. We also specialize in Web App Development, mobile app development , 3D graphics , and Graphic arts. The aim of the group is to showcase our ability and talents to the world ,someday be recognize, and be a top-notch company in the country. </h1> 
+								</div>
+							</div> 
+						</div>
+					</div>
+					<div class="col-sm-6">  
+						<div class="about-developers" >
+
+							<%= image_tag("developer-icon.png", class: "img-responsive service-img") %>
+							<div class="about-titles" >
+									<h1> <%= link_to "DEVELOPERS", static_developer_path , {:style=>'color:#FFFFFF;'} %> </h1> 
+									
+							</div> 
+						</div>
+
+						<div class="about-projects" >
+
+							<%= image_tag("project-icon.png", class: "img-responsive service-img") %>
+
+							<div class="about-titles" >
+								<h1> PROJECTS</h1> 
+							</div> 
+						</div>
+						<div class="about-technologies" >
+							<%= image_tag("technology-icon.png", class: "img-responsive service-img") %>
+							<div class="about-titles" >
+								<h1> TECHNOLOGIES</h1> 
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="service">
+			<div class="container-fluid service-header" align="center">
+				<h1> SERVICES </h1>
+			</div>
+			<div class="container-fluid">
+				<div class="row div-service" >
+					<div class="col-sm-6 ">  
+						<div class="game">
+							<%= image_tag("game.png", class: "img-responsive service-img") %>
+
+							<div class="gamedev-title" >
+								<h1> GAME DEVELOPMENT </h1> 
+								<div class="gamedev-desc"> 
+									<h2>  Game Development must be more than beautiful graphics which we do, but also to give our audience a creative and mindful gameplay.</h2>
+								</div>
+							</div> 
+						</div>
+					</div>
+
+					<div class="col-sm-6 ">  
+						<div class="game" >
+							<%= image_tag("phone-icon.png", class: "img-responsive service-img") %>
+
+							<div class="gamedev-title" >
+								<h1> Mobile App Development </h1> 
+								<div class="gamedev-desc"> 
+									<h2> Building your everyday companion with useful content. We build software for both Android and iOS platform.</h2>
+								</div>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row div-service" >
+					<div class="col-sm-6 ">  
+						<div class="game" >
+							<%= image_tag("web-icon.png", class: "img-responsive service-img") %>
+
+							<div class="gamedev-title" >
+								<h1> WEB APP DEVELOPMENT </h1> 
+								<div class="gamedev-desc"> 
+									<h2> A well design website can generate plenty of visitors and make a big business opportunity. We design unparalleled and magnificient web applications. </h2>
+								</div>
+							</div> 
+						</div>
+					</div>
+
+					<div class="col-sm-6 ">  
+						<div class="game">
+							<%= image_tag("3d-icon.png", class: "img-responsive service-img") %>
+							<div class="gamedev-title" >
+								<h1> 3D OBJECTS </h1> 
+								<div class="gamedev-desc"> 
+									<h2> We are more than 3D assets in your game. We can also build your dream house virtually.</h2>
+								</div>
+							</div> 
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-fluid">
+				<div class="row div-service" >
+					<div class="col-sm-6 ">  
+						<div class="game">
+							<%= image_tag("graphics-art-icon.png", class: "img-responsive service-img") %>
+
+							<div class="gamedev-title" >
+								<h1> GRAPHIC ARTS </h1> 
+								<div class="gamedev-desc"> 
+									<h2> We can make you imagination. Fueled with creativity, intensified by hardwork.</h2>
+								</div>
+							</div> 
+						</div>
+					</div>
+				</div>  				
+			</section>
+
+
+			<section class="game-application">
+
+				<div class="gameapp-title" align="center"> <h1> GAME APPLICATION</h1></div>
+				<div class="container">
+					<div class="row scolor">
+
+
+						<div class="col-sm-6">
+							<div class="scolor-desc">
+
+								<p> Scolor is an action-puzzle game that challenges the players eye reflexes by matching the same colors. Challenge your friends and people around the world by beating their highscores and be the top player of the game.</p>
+							</div>
+
+							<div class="scolor-btn" align="center">
+
+							<button type="button" class="scolor-download"> <a href="https://play.google.com/store/apps/details?id=com.age.scolor&hl=en" style="color: white; text-decoration: none;"> DOWNLOAD</a> </button>
+							</div>
+						</div>
+
+						<div class="col-sm-6">
+
+							<div class="scolor-img">
+								<%= image_tag("scolor-phone.png", class: "img-responsive") %>
+								
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="art-portfolio">
+				<h1>ART PORTFOLIO</h1>
+				<div class="row art-div" style="padding-top: 15%;">
+
+					<div class="col-sm-3 art-box"> <%= image_tag("geo/one.jpg", class: "img-responsive") %> </div>
+
+
+					<div class="col-sm-3 art-box"> 
+
+						<%= image_tag("geo/two.jpg", class: "img-responsive") %> 
+					</div>
+					<div class="col-sm-3 art-box"> 
+
+						<%= image_tag("geo/four.jpg", class: "img-responsive") %> 
+
+					</div>
+
+					<div class="col-sm-3 art-box"> 
+
+					<button type="button" class="see-more-btn"> <%= link_to "SEE MORE", arts_path %> </button>
+					</div>
+					<div class="col-sm-3 art-box"> 
+					</div>
+				</section>
+				<section class="contact-info">
+
+					<div class="container-fluid">
+
+
+
+
+
+
+					</div>
+
+
+				</section>
+
+				<%= render partial: "shared/footer"%>
+			</div>
+
+
+

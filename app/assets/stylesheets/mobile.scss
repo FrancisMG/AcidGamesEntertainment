@@ -1,0 +1,356 @@
+/*
+==============================MOBILE DEVICE=======================================*/
+
+
+@media screen and (max-width:768px) {
+
+
+  /*=================HEADER=========================*/
+
+
+
+  .play-web-games {
+
+    font-family:  'Oswald', sans-serif;
+    color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 20px;
+    padding: 0 0 0 0;
+
+  }
+
+  .browse-games {
+    margin-top: 15px;
+    font-family:  'Oswald', sans-serif;
+    color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 20px;
+    padding: 0 0 0 0;
+  }
+
+
+
+
+  .header-msg{
+    padding-top: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 5px;
+    font-weight: 100;
+    line-height: 1.25;
+  }
+
+
+/*
+==================ABOUT US=====================*/
+.div-about-us {
+
+padding-right: 0px;
+padding-left: 0px;
+
+}
+
+.about-developers{
+
+  display: inline;
+}
+
+.about-projects{
+
+  display: inline;
+}
+
+.about-technologies {
+
+
+  display: inline;
+}
+
+.about-titles h1 {
+  font-family:  'Oswald', sans-serif;
+  word-wrap: break-word;
+  text-align: center; 
+  padding-bottom:5px;
+  color: white;
+  font-size: 14px;
+  padding-top: 20px;
+ padding-left: 0px;
+ padding-right: 0px;
+
+}
+
+.about-age {
+  text-align: center;
+}
+
+.about-age-desc h1 {
+  font-size: 15px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+
+
+}
+
+/*=======================SERVICE=======================*/
+
+
+.service {
+
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.service-header h1 {
+ word-wrap: break-word;
+ width:100%;
+ font-size: 45px;
+ font-family:  'Oswald', sans-serif;
+ color: white;
+ letter-spacing: 5px;
+ margin-bottom: 0px;
+ padding-bottom: 0px;
+
+}
+.service-header h2 {
+  margin-top: 10px;
+ font-family:  'Oswald', sans-serif;
+  display: inline-block;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: lighter;
+  font-size: 25px;
+
+}
+.service-img{
+  height: 70px;
+  width: auto;
+ 
+  padding-top: 10px;
+  margin: auto;
+}
+
+.game {
+ display: inline;
+
+}
+
+.div-service{
+
+  padding-bottom: 0px;
+}
+
+.gamedev-title h1 {
+ font-family:  'Oswald', sans-serif;
+  word-wrap: break-word;
+  text-align: center;
+  padding-bottom:5px;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 3px;
+  padding-top: 20px;
+ padding-left: 0px;
+ padding-right: 0px;
+}
+
+.gamedev-desc h2 {
+  font-family:  'Oswald', sans-serif;
+  color: white;
+  font-size: 15px;
+  text-align: left;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  padding-left: 0px;
+ padding-right: 0px;
+
+
+}
+
+}
+
+/*==============================ART SECTION==================================================*/
+
+
+.art-portfolio {
+  padding-right: 50px;
+  padding-left: 50px;
+
+}
+
+.art-header h1 {
+  font-family:  'Oswald', sans-serif;
+  word-wrap: break-word;
+  border-bottom:2px solid white; 
+  width:100%;
+  padding-top: 50px;
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+
+}
+
+.art-box {
+
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+}
+/*===============================================================================================*/
+
+.gameapp-title h1 {
+  font-family: 'Oswald', sans-serif;
+  word-wrap: break-word;
+  text-align: center;
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  letter-spacing: 5px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+
+}
+
+.scolor-img{
+  padding-top: 40px;
+}
+
+
+/*
+=====================CONTACT-FORM========================================*/
+
+.first-name{
+
+
+  margin-bottom: 20px;
+}
+
+.contact-us-header h1 {
+   font-family:  'Oswald', sans-serif;
+
+  border-bottom:2px solid white; 
+  width:100%;
+  padding-top: 50px;
+  font-size: 25px;
+  font-weight: lighter;
+  color: white;
+
+  text-align: center;
+
+
+
+}
+
+.contact-form {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 50px;
+}
+
+.send{
+  letter-spacing: 5px;
+  font-family:  'Oswald', sans-serif;
+  color: white;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  cursor:pointer;
+  overflow: hidden;
+  outline:none;
+  font-size: 20px;
+  padding: 2 2 2 2; 
+
+
+}
+
+/*===============================================================================================*/
+
+
+/*
+===============NAVBAR==============================*/
+
+
+
+.navbar{
+  padding-top: 1px;
+  margin-bottom:0;
+  border:none;
+  background: transparent;
+   font-family:  'Oswald', sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+/*===============================================================================================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*===================================================================DEVELOPER.HTML===================================================================================================================      */
+
+
+
+.dev-img-thumb
+{
+
+  padding-bottom: 50px;
+}
+  .dev-img {
+
+    padding-top: 100px;
+    padding-right: 70px;  
+    padding-left: 70px;
+    padding-bottom: 50px;
+
+  }
+
+  .dev-header h1 {
+    font-family:  'Oswald', sans-serif;
+    word-wrap: break-word;
+    border-bottom:2px solid white; 
+    width:100%;
+    padding-top: 50px;
+    font-size: 60px;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+
+
+
+@media screen and (max-width:768px) {
+
+    .dev-header h1 {
+     font-family:  'Oswald', sans-serif;
+     border-bottom:0px solid white; 
+    letter-spacing: 0px;
+    font-size: 25px;
+    font-weight: lighter;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+
+}
+
+

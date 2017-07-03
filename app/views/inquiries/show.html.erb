@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @inquiry.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @inquiry.last_name %>
+</p>
+
+<p>
+  <strong>Contact:</strong>
+  <%= @inquiry.contact %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @inquiry.email %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @inquiry.address %>
+</p>
+
+<%= link_to 'Edit', edit_inquiry_path(@inquiry) %> |
+<%= link_to 'Back', inquiries_path %>
