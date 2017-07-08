@@ -356,15 +356,19 @@
 .see-more-btn {
   letter-spacing: 5px;
   font-family:  'Oswald', sans-serif;
-  color: white;
-  background-color: Transparent;
-  background-repeat:no-repeat;
-  cursor:pointer;
-  overflow: hidden;
-  outline:none;
-  font-size: 20px;
+ 
+   background-image: url(geo/seven.jpg);
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    background-position: center center;
+  
+  
+
+  font-size: 25px;
+
   padding: 14px 40px;
-  height: 300px;
+  height: 344px;
+  width: 259px;
 
 
 }
@@ -575,48 +579,7 @@ footer .footer-logo .footer-age-logo {
 }
 
 
-.first_name{
 
- padding: 12px 20px;
- margin: 8px 0;
- display: inline-block;
- border: 1px solid #ccc;
- border-radius: 4px;
- box-sizing: border-box;
- width: 80%;
-}
-
-.last_name {
-
- padding: 12px 20px;
- margin: 8px 0;
- display: inline-block;
- border: 1px solid #ccc;
- border-radius: 4px;
- box-sizing: border-box;
- width: 80%;
-}
-
-.email{
- padding: 12px 20px;
- margin: 8px 0;
- display: inline-block;
- border: 1px solid #ccc;
- border-radius: 4px;
- box-sizing: border-box;
- width: 80%;
-}
-
-.phone{
- padding: 12px 20px;
- margin: 8px 0;
- display: inline-block;
- border: 1px solid #ccc;
- border-radius: 4px;
- box-sizing: border-box;
- width: 80%;
-
-}
 /*======================PROFILE=============================*/
 
 
@@ -666,12 +629,53 @@ footer .footer-logo .footer-age-logo {
 
 /*====================================================================================
 */
-.acid-developer, .acid-developer2 h4 , p{
-
-
+.acid-developer h4{
+  padding-top: 20px;
+  font-size: 13px;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 2px;
   color: white;
 }
 
+.acid-developer2 p{
+
+   padding-top:5px;
+  font-size: 13px;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 1px;
+  color: white;
+}
+.acid-developer2 h4{
+  padding-top: 20px;
+  font-size: 13px;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 2px;
+  color: white;
+}
+
+.acid-developer3 p{
+
+   padding-top:5px;
+  font-size: 13px;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 1px;
+  color: white;
+}.acid-developer3 h4{
+  padding-top: 20px;
+  font-size: 13px;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 2px;
+  color: white;
+}
+
+.acid-developer p{
+
+   padding-top:5px;
+  font-size: 13px;
+   font-family: 'Oswald', sans-serif;
+   letter-spacing: 1px;
+  color: white;
+}
 .dev-header {
   width: auto;
   height: 800;
@@ -691,14 +695,24 @@ footer .footer-logo .footer-age-logo {
 }
 
 
-.acid-developer2 {
+.acid-developer2{
 
   padding-top: 100px;
   padding-right: 50px;
   padding-left: 50px;
- margin-bottom: 100px;
+ 
  
 }
+.acid-developer3{
+
+  padding-top: 100px;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-bottom: 100px;
+ 
+}
+
+
 .card {
 
     /* Add shadows to create the "card" effect */

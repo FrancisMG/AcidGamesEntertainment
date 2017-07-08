@@ -13,21 +13,83 @@
 	padding-bottom: 100px;
 }
 
-.first_name{
+.first_name {
 
-   padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    width: 80%;
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+width: 100%;
+
+
+resize: none;
+}
+
+.last_name {
+
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ width: 100%;
+ resize: none;
+}
+
+.email{
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ width: 100%;
+ resize: none;
+}
+
+.contact_number{
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ width: 100%;
+ resize: none;
+
 
 }
 
+.address{
+ padding: 12px 20px;
+ margin: 8px 0;
+ display: inline-block;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ box-sizing: border-box;
+ width: 100%;
+ resize: none;
+
+}
 
 .inquiry {
-padding-top: 50px;
+padding-top: 150px;
 
 }
 
+  .inquiry-btn {
+    letter-spacing: 5px;
+    font-family:  'Oswald', sans-serif;
+    color: white;
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    font-size: 20px;
+    padding: 14px 40px;
+    margin-top: 50px
+  }

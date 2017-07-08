@@ -24,7 +24,9 @@
 
 			</div>
 			<div class="col-sm-6">
-				<button type="button" class="browse-games ">Browse Games</button>
+				<button type="button" class="browse-games "><%= link_to "Browse Games", static_game_path , {:style=>'color:#FFFFFF;'}%> </button>
+
+
 			</div> 
 		</div>
 	</section>
@@ -188,24 +190,24 @@
 				<h1>ART PORTFOLIO</h1>
 				<div class="row art-div" style="padding-top: 15%;">
 
-					<div class="col-sm-3 art-box"> <%= image_tag("geo/one.jpg", class: "img-responsive") %> </div>
+					<div class="col-sm-3 art-box-home"> <%= image_tag("geo/one.jpg", class: "img-responsive") %> </div>
 
 
-					<div class="col-sm-3 art-box"> 
+					<div class="col-sm-3 art-box-home"> 
 
 						<%= image_tag("geo/two.jpg", class: "img-responsive") %> 
 					</div>
-					<div class="col-sm-3 art-box"> 
+					<div class="col-sm-3 art-box-home"> 
 
 						<%= image_tag("geo/four.jpg", class: "img-responsive") %> 
 
 					</div>
 
-					<div class="col-sm-3 art-box"> 
+					<div class="col-sm-3 art-box-home"> 
 
-						<button type="button" class="see-more-btn"> <%= link_to "SEE MORE", arts_path %> </button>
+						<button type="button" class="see-more-btn"> <%= link_to "SEE MORE", arts_path , {:style=>'color:#FFFFFF;'}%> </button>
 					</div>
-					<div class="col-sm-3 art-box"> 
+					<div class="col-sm-3 art-box-home"> 
 					</div>
 				</section>
 				<section class="contact-info">

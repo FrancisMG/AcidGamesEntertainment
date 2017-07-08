@@ -7,6 +7,10 @@ class InquiriesController < ApplicationController
     @inquiries = Inquiry.all
   end
 
+  def inquiry_landing
+    
+  end
+
   # GET /inquiries/1
   # GET /inquiries/1.json
   def show
@@ -28,7 +32,7 @@ class InquiriesController < ApplicationController
 
     respond_to do |format|
       if @inquiry.save
-        format.html { redirect_to @inquiry, notice: 'Inquiry was successfully created.' }
+        format.html { redirect_to root_url, notice: 'Inquiry was successfully created.' }
         format.json { render :show, status: :created, location: @inquiry }
       else
         format.html { render :new }

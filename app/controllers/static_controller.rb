@@ -7,4 +7,8 @@ class StaticController < ApplicationController
 	def developer
 		
 	end
+
+	def game
+		
+	end
 end

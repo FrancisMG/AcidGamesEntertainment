@@ -5,14 +5,7 @@
   </div>
  <section class=" art-header">  
  <%= render partial: "shared/head"%>
-
-
 </section>
-
-<div class="title-header">
-  
-  <h1>CONCEPT ARTS</h1>
-</div>
 
 <div class="container art-container"> 
  <% @arts.each_slice(12).to_a.each do |art| %>
@@ -20,7 +13,7 @@
   <% art.each do |art| %>
   <div class="col-md-2 art-box" >
     <%= link_to image_tag(art.art_url(:thumb).to_s), art.art_url, target: :_blank %>
-    <div class="title" > <%= art.title  %></div>
+    <div class="title" > <%= art.title %></div>
     <div class="author"> <%= art.author %></div>
   </div>  
   <% end -%>
